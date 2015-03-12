@@ -1,0 +1,6 @@
+D:\TELERIK_ACADEMY\C#OOP\Domashni\Homework_18.03.2015\GSMMain\bin\Debug\GSMMain.exe.config
+D:\TELERIK_ACADEMY\C#OOP\Domashni\Homework_18.03.2015\GSMMain\obj\Debug\GSMMain.csprojResolveAssemblyReference.cache
+D:\TELERIK_ACADEMY\C#OOP\Domashni\Homework_18.03.2015\GSMMain\bin\Debug\GSMMain.exe
+D:\TELERIK_ACADEMY\C#OOP\Domashni\Homework_18.03.2015\GSMMain\bin\Debug\GSMMain.pdb
+D:\TELERIK_ACADEMY\C#OOP\Domashni\Homework_18.03.2015\GSMMain\obj\Debug\GSMMain.exe
+D:\TELERIK_ACADEMY\C#OOP\Domashni\Homework_18.03.2015\GSMMain\obj\Debug\GSMMain.pdb
