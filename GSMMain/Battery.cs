@@ -25,7 +25,7 @@
             }
             set
             {
-                if (maxHoursIdle > 500)
+                if (value > 500)
                 {
                     throw new ArgumentOutOfRangeException("The maximum idle hours of a battery cannot exceed 500 minutes!");
                 }
@@ -42,7 +42,7 @@
             }
             set
             {
-                if (maxHoursTalk > 10)
+                if (value > 10)
                 {
                     throw new ArgumentOutOfRangeException("The maximum hours of talk of a battery cannot exceed 10 hours!");
                 }

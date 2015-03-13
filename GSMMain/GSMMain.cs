@@ -60,16 +60,18 @@ Assuming that the price per minute is 0.37 calculate and print the total price o
 Remove the longest call from the history and calculate the total price again.
 Finally clear the call history and print it.*/
 
-    class GSMMain
+    public class GSMMain
     {
         static void Main()
         {
-            Battery curbat = new Battery(TypesOfBattery.LiIon, 700, 9);
+            Battery curbat = new Battery(TypesOfBattery.LiIon, 400, 9);
             Display curdis = new Display(17.3, 10.2, 76);
 
 
-            GSM nokia = new GSM("N60", "Nokia", 97.76, "PESHO", curbat, curdis);
-            Console.WriteLine(nokia);
+            GSM nokia = new GSM("N60", "Nokia", 97.76, "PESHO");
+            nokia.AddCall(new Call(DateTime.Parse("12/02/2015 19:23:34"), "388297912", 435));
+            Console.WriteLine(nokia.CallHistory);
+           
 
 
 
