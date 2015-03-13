@@ -15,9 +15,41 @@
             this.Duration = duration;
         }
         
-        public DateTime Date { get; set;}
-        public string DialedNumber { get; set; }
-        public int Duration { get; set; }
+        public DateTime Date 
+        {
+            get
+            {
+                return this.date;
+            }
+            set
+            {
+                this.date = value;
+            }
+        }
+
+        public string DialedNumber 
+        {
+            get
+            {
+                return this.dialedNumber;
+            }
+            set
+            {
+                this.dialedNumber = value;
+            }
+        }
+
+        public int Duration 
+        {
+            get
+            {
+                return this.duration;
+            }
+            set
+            {
+                this.duration = value;
+            }
+        }
 
         public override string ToString()
         {

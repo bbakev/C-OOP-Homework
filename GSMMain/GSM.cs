@@ -16,9 +16,9 @@
 
         public GSM (string model, string manufacturer)
         {
-            this.model = model;
-            this.manufacturer = manufacturer;
-            this.callHistory = new List<Call>(); 
+            this.Model = model;
+            this.Manufacturer = manufacturer;
+            this.CallHistory = new List<Call>(); 
         }
 
         public GSM(string model, string manufacturer, double price) : this (model,manufacturer)   
@@ -44,6 +44,10 @@
             {
                 return this.model;
             }
+            private set
+            {
+                this.model = value;
+            }
         }
 
         public string Manufacturer
@@ -51,6 +55,10 @@
             get
             {
                 return this.manufacturer;
+            }
+            private set
+            {
+                this.manufacturer = value;
             }
         }
 
@@ -98,7 +106,17 @@
             }
         }
 
-        public List<Call> CallHistory { get; set; } 
+        public List<Call> CallHistory
+        {
+            get
+            {
+                return this.callHistory;
+            }
+            set
+            {
+                this.callHistory = value;
+            }
+        }
 
         public List<Call> AddCall (Call call)
         {
