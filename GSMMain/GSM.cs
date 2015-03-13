@@ -1,5 +1,6 @@
 ﻿namespace GSMMain
 {
+    using System;
     using System.Collections.Generic;
 
     public class GSM
@@ -128,9 +129,14 @@
             return result;
         }
 
+        public string PrintCallHistory()
+        {
+            return string.Format("Calls history:\n{0}", string.Join(Environment.NewLine, this.callHistory));
+        }
+
         public override string ToString()
         {
-            return this.model + "; " + this.manufacturer + "; " + this.price + "; " + this.owner + "; " + this.battery + " ;" + this.display + "; " + this.callHistory;
+            return this.model + "; " + this.manufacturer + "; " + this.price + "; " + this.owner + "; " + this.battery + " ;" + this.display;
         }
 
     }
